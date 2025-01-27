@@ -25,7 +25,7 @@ def pregunta_01():
     """
 
     # Cargar los datos
-    df = pd.read_csv("/Users/pipepatino/Documents/Analisis_Visualizacion_2024_2/Laboratorios/2024-2-LAB-06-limpieza-de-datos-de-solicitudes-de-credito-Pipepatino/files/input/solicitudes_de_credito.csv", sep=";")
+    df = pd.read_csv("files/input/solicitudes_de_credito.csv", sep=";")
 
     df = df.dropna()
     df = df.copy() 
